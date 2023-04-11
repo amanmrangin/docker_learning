@@ -34,7 +34,10 @@
      - **Docker Object - Container**: A runnable instance of **Image** that can be started, stopped, and deleted using CLI and API. Each **Container** is _isolated_ from other Containers and from the Host machine. Uses _kernal namespaces and cgroup_ of OS to get the Isolation. 
    - **Docker Registry**: A storage place of Docker Images. A corporation can have it's own custom/dedicated/internal registry to prevent from using unlicensed, vulnerable software images.
    - **Docker Hub**: A public registry for public images that anyone can use, Docker is configured by default to search and pull the public images from here. 
-   -    
+
+## Practice Commands
+- To Run existing Docker Image: `docker run <IMAGE_NAME_ID>` OR `docker run [OPTIONS] IMAGE [COMMAND] [ARG....]`
+ - Example: `docker run getting-started`
 
 ## Additional Materials
 - [Docker Get Started](https://docs.docker.com/get-started)
