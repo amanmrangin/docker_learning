@@ -13,7 +13,7 @@
  - **Isolation** and **Security** allows the Docker to install/run multipe Containers on a single host ignoring the underlying details of Host machine.
  - **Docker Container Image** is a portable, independent, and executable software that consists of all (compiled or non-compiled source code, libraries, tools, infrastructure details, settings, properties, certificates, monitoring agents etc.) to run an application independently and consistently anywhere.
  - As **Docker CLI** is used for all the interaction with Docker software, practice rigorusly and remember the command and syntax for various operations/functions
- - 
+ - Java follows WORA (Write code Once and Run it in Any JVM), Docker follows BORA (Build a containerImage Once and Run it in Any machine)
 
 
 ## Additional Materials
