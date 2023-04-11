@@ -18,10 +18,18 @@
    
   **HOW:**
    - **Isolation** and **Security** allows the Docker to install/run multipe Containers on a single host ignoring the underlying details of Host machine.
-   - As **Docker CLI** is used for all the interaction with Docker software, practice rigorusly and remember the command and syntax for various operations/functions
+   - As **Docker CLI**, AKA _Docker Client_, is used for all the interaction with Docker software, practice rigorusly and remember the command and syntax for various operations/functions
    
   **WHERE:**
    - Runs on any popular Operating System
+
+  **Pouplar Terms:**
+   - **Docker Desktop**: Easy-to-install software consists of all the following components of Docker.
+   - **Docker Client**: A command based tool, CLI, to interact with **Docker Host**
+   - **Docker Host**: A software, acts as a server, listens to Docker Client requests.  It consists of many components such as _Docker Daemon_, _Images_, _Containers_
+     - **Docker Daemon**: A service/listener for all the requests and manages the _Containers_, _Images_, _attached Stoage Volumes_, _Networks_
+     - **Docker Objects - Images**: A file with set of instructions version of any software (E.g. Ubuntu, RedHad Linux, Apache Webserver, JDK, Tomcat, NodeJS etc..y) that can be collected and concustomized to build another Docker Image. Example: A Image can be a software built using collection many software products such as of 'Ubuntu OS', 'Apache WebServer', 'JDK11', 'Tomcat', 
+         
 
 ## Additional Materials
 - [Docker Get Started](https://docs.docker.com/get-started)
