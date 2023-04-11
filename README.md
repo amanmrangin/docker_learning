@@ -31,7 +31,7 @@
      - **Docker Object - Image(s)**: A text file (Dockerfile) with set of instructions/commands to build an **Image** consising of different layers software (E.g. its own File System, Operaint System, Environment variables, Webservers, JDK, Tomcat, SpringBoot, Database libraries etc..) that require run a custom software (e.g. Application).
      
       - **Docker Build** process reads the instructions of **Dockerfile** in a sequence and produces an output, **Image**.
-     - **Docker Object - Container**: A runnable of instance of **Image** that can be started, stopped, and deleted using CLI and API. Each **Container** is _isolated_ from other Containers and from the Host machine. uses _kernal namespaces and cgroup_ of OS to get Isolation. 
+     - **Docker Object - Container**: A runnable instance of **Image** that can be started, stopped, and deleted using CLI and API. Each **Container** is _isolated_ from other Containers and from the Host machine. Uses _kernal namespaces and cgroup_ of OS to get the Isolation. 
    - **Docker Registry**: A storage place of Docker Images. A corporation can have it's own custom/dedicated/internal registry to prevent from using unlicensed, vulnerable software images.
    - **Docker Hub**: A public registry for public images that anyone can use, Docker is configured by default to search and pull the public images from here. 
    -    
