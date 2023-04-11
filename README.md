@@ -36,8 +36,9 @@
    - **Docker Hub**: A public registry for public images that anyone can use, Docker is configured by default to search and pull the public images from here. 
 
 ## Practice Commands
-- To Run existing Docker Image: `docker run <IMAGE_NAME_ID>` OR `docker run [OPTIONS] IMAGE [COMMAND] [ARG....]`
+- To **Run existing Docker Image**: `docker run <IMAGE_NAME_ID>` OR `docker run [OPTIONS] IMAGE [COMMAND] [ARG....]`
  - Example: `docker run getting-started`
+- To **see all the existing Docker Images**: `docker images`
 
 ## Additional Materials
 - [Docker Get Started](https://docs.docker.com/get-started)
