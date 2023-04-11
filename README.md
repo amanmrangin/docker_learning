@@ -10,13 +10,18 @@
  ## Notes
  
   **WHAT:**
+   - Used for stable and consistent delivery of Application(s) as a single distributable unit (image)
+   - Docker follows BORA (Build a containerImage Once and Run it in Any machine) like Java follows WORA (Write code Once and Run it in Any JVM).
    - Docker allows to manage the _Infrastructure_ separately from the _Application(s)_ that enables developers to Develop, Package/Ship, Test, and Deploy both _Infrastructure_ and _Applications_ as a single distributable unit (**Container**) into a targeted environment.
-   - Docker solves the traditional problems (Machine Parity) that the Developers faced such as 'It worked in my machine but not in others, not sure what went wrong'
-   - **Isolation** and **Security** allows the Docker to install/run multipe Containers on a single host ignoring the underlying details of Host machine.
    - **Docker Container Image** is a portable, independent, and executable software that consists of all (compiled or non-compiled source code, libraries, tools, infrastructure details, settings, properties, certificates, monitoring agents etc.) to run an application independently and consistently anywhere.
+   - Docker solves the traditional problem (Machine Parity) that the Developers faced such as 'It worked in my machine but not in others, not sure what went wrong.
+   
+  **HOW:**
+   - **Isolation** and **Security** allows the Docker to install/run multipe Containers on a single host ignoring the underlying details of Host machine.
    - As **Docker CLI** is used for all the interaction with Docker software, practice rigorusly and remember the command and syntax for various operations/functions
-   - Java follows WORA (Write code Once and Run it in Any JVM), Docker follows BORA (Build a containerImage Once and Run it in Any machine)
-
+   
+  **WHERE:**
+   - Runs on any popular Operating System
 
 ## Additional Materials
 - [Docker Get Started](https://docs.docker.com/get-started)
