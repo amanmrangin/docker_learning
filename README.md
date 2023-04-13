@@ -37,7 +37,7 @@
 
 ## Practice Commands
 - To **Run existing Docker Image**: `docker run <IMAGE_NAME_ID>` OR `docker run [OPTIONS] IMAGE [COMMAND] [ARG....]`
- - Example: `docker run getting-started`
+  - Example: `docker run getting-started`
 - To **see all the existing Docker Images**: `docker images`
 
 ## Additional Materials
