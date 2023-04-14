@@ -4,7 +4,7 @@
  - In Windows machine, Downlaod and install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install). Requires restarting of machine to continue setting up a new user account/password to access the install Linux Distro.  
    ![image](https://user-images.githubusercontent.com/129334520/231916581-2c8c40c5-6a78-42f1-b93d-42e1bcc0aa60.png)
  - Install [Git Client](https://git-scm.com/downloads). 
-   ![image](https://user-images.githubusercontent.com/129334520/231916957-d1eeec87-9426-4574-a87a-1fa889de0a75.png)
+    ![image](https://user-images.githubusercontent.com/129334520/231916957-d1eeec87-9426-4574-a87a-1fa889de0a75.png)
  - Install [Docker Desktop for Windows which includes Kuberetes](https://www.docker.com/products/docker-desktop) using the [Guide](https://docs.docker.com/docker-for-windows/install).
    - Create an account at Docker.com and _Sign In_ from installed 'Docker Desktop' application.
    - After login, navigate to _Settings_-> _Kubernetes_ -> select _Enable Kubernetes_ and clikc on 'Apply & Restart' button.
