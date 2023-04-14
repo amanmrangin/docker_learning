@@ -1,6 +1,9 @@
 # docker_learning
 
 ## Installation
+ - In Windows machine, Downlaod and install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install). System reqires restart to continue setting up a user account
+ ![image](https://user-images.githubusercontent.com/129334520/231916480-f067dd8b-9be5-4814-81e9-733f1ae59df9.png)
+
  - Install [Git Client](https://git-scm.com/downloads)
  - Install [Docker Desktop for Windows which includes Kuberetes](https://www.docker.com/products/docker-desktop) using the [Guide](https://docs.docker.com/docker-for-windows/install)
  - Verify the installation by launching any Terminal (GitBash or CMD) window, run `docker version`
