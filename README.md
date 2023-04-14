@@ -19,7 +19,7 @@
  ## Notes
  
   **WHAT:**
-   - Written in **GO** language, Used for stable and consistent delivery of Application(s) as a single distributable unit (Container Image).
+   - A platform Written in **GO** language, Used for stable and consistent delivery of Application(s) as a single distributable unit (Container Image) that can run on any machine with the support of Docker software.
    - _Docker_ follows BORA (**B**uild a containerImage **O**nce and **R**un on **A**ny machine that has Docker software installed) like _Java_ follows WORA (**W**rite code and compile **O**nce and **R**un **A**nywhere that has JVM).
    - Docker allows to manage the _Infrastructure_ separately from the _Application(s)_ that enables developers to Develop, Package/Ship, Test, and Deploy both _Infrastructure_ and _Applications_ as a single distributable unit (**Container**) into a targeted environment.
    - **Docker Container Image** is a portable, independent, and executable software that consists of all (compiled or non-compiled source code, scripts, libraries, binaries, tools, infrastructure details, Environment Variables, settings, properties, certificates, monitoring agents etc.) to run an application independently and consistently anywhere.
