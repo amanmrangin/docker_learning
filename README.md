@@ -36,8 +36,9 @@
    - **Docker Desktop**: Easy-to-install software consists of many of the following components of Docker.
    - **Docker Client**: A command based tool, CLI, to interact with **Docker Host**
    - **Docker Host**: A software, acts as a server, listens to Docker Client requests.  It consists of many components such as _Docker Daemon_, _Images_, _Containers_
+
      - **Docker Daemon**: A service/listener for all the requests and manages the _Containers_, _Images_, _attached Stoage Volumes_, _Networks_.
-     - **Docker Object - Image(s)**: A text file (Dockerfile) with set of instructions/commands to build an **Image** consising of different layers software (E.g. its own File System, Operaint System, Environment variables, Webservers, JDK, Tomcat, SpringBoot, Database libraries etc..) that require run a custom software (e.g. Application).
+     - **Docker Object - Image(s)**: A text file (Dockerfile) with set of instructions/commands to build an **Image** consising of different layers software (E.g. its own File System, Operating System, Environment variables, Webservers, JDK, Tomcat, SpringBoot, Database libraries etc..) that require to run a custom software (e.g. Web Application).
      
       - **Docker Build** process reads the instructions of **Dockerfile** in a sequence and produces an output, **Image**.
      - **Docker Object - Container**: A runnable instance of **Image** that can be started, stopped, and deleted using CLI and API. Each **Container** is _isolated_ from other Containers and from the Host machine. Uses _kernal namespaces and cgroup_ of OS to get the Isolation. 
@@ -45,9 +46,20 @@
    - **Docker Hub**: A public registry for public images that anyone can use, Docker is configured by default to search and pull the public images from here. 
 
 ## Practice Commands
-- To **Run existing Docker Image**: `docker run <IMAGE_NAME_ID>` OR `docker run [OPTIONS] IMAGE [COMMAND] [ARG....]`
+- To **Download/pull the pre-defined Docker Image and Run in local machine as a Container**: `docker run <IMAGE_NAME_ID>` OR `docker run [OPTIONS] IMAGE [COMMAND] [ARG....]`
   - Example: `docker run getting-started`
-- To **see all the existing Docker Images**: `docker images`
+- To **see all the existing Docker Images of local machine**: `docker images`t
+- To **Run NGINX container in a default internal port (80) and expose/accessible through local machine port 8080 in a Detached (d) mode**: `docker run -p 8080:80 -d nginx`, access http://localhost:8080 to see Nginx Welcome screen in your local machine browser, not in nginx server
+- To **see the existing running docker containers**: `docker ps`
+- To **see the Logs of a container**: `docker logs <container id>`
+- To **Stop the running docker container**: `docker stop <container id>`
+- To **run a command in a running container**: Use `docker exec`
+    -   To List the files of a directory from running container, and pipes the output back to terminal console: `docker exec -it <container id> ls /usr/share/nginx/html`
+    -   To see the bash prompt of container on console: `docker exec -it <container id> bash`
+
+## 
+
 
 ## Additional Materials
 - [Docker Get Started](https://docs.docker.com/get-started)
+- [Docker commands](https://docs.docker.com/engine/reference/commandline/docker/)
